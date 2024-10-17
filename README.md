@@ -1,6 +1,6 @@
 # Layouts
 Custom screen layouts for Ethos<br>
-Currently compatible with X20 and X18, other radios not added yet
+![](https://github.com/BladeScraper-Designs/Ethos_Layouts/blob/main/img/Select.png?raw=true)<br>
 
 ## Rotorflight Main Screen<br>
 3 Column: 3/4-2-2 Layout<br>
