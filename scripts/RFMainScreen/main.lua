@@ -34,6 +34,23 @@ local function init()
         }})
         print("Layout registered for X18 Series Radio")
     end
+
+    -- Alternate X20 Layout
+    -- If screen size matches X20 Series Radio
+    if string.match(radio, "^X20") then
+        -- Main Front Page Layout
+        system.registerLayout({key="RF3", widgets={
+            {x=8, y=95, w=256, h=100},
+            {x=8, y=203, w=256, h=100},
+            {x=8, y=311, w=156, h=100},
+            {x=272, y=95, w=256, h=154},
+            {x=272, y=257, w=256, h=154},
+            {x=536, y=95, w=256, h=154},
+            {x=536, y=257, w=256, h=154},
+            {x=172, y=311, w=91, h=100},
+        }})
+        print("Layout registered for X20 Series Radio")
+    end
 end
 
 return {init=init}
