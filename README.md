@@ -1,12 +1,13 @@
 # Layouts
 Custom screen layouts for Ethos<br>
 ![](https://github.com/BladeScraper-Designs/Ethos_Layouts/blob/main/img/Select.png?raw=true)<br>
+Installation: Download the .zip corresponding to one of the names listed below.<br>
+Use Ethos Suite Lua Dev Tools to install or Unzip and install manually.
 
-## Rotorflight Main Screen<br>
+## "RFMainScreen"<br>
 Layout: 3/4-2-2<br>
 Fit for: X18, X20<br>
-Designed for: Custom Layout<br>
-Special Considerations: Compatibility with [BattSelector](https://github.com/BladeScraper-Designs/Ethos_BattSelector)
+Why: Custom Layout for Rotorflight as per my preferences, with special considerations for compatibility with [BattSelector](https://github.com/BladeScraper-Designs/Ethos_BattSelector)
 
 Standard 3-2-2 Layout:<br>
 ![](https://github.com/BladeScraper-Designs/Ethos_Layouts/blob/main/img/X20.png?raw=true)<br>
