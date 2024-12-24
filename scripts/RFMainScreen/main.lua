@@ -6,7 +6,7 @@ local function init()
     local radio = environment.board
 
     -- If screen size matches X20 Series Radio
-    if string.match(radio, "^X20") then
+    if string.match(radio, "^X20") or string.match(radio, "^X18R[S]?") then
         -- Main Front Page Layout
         system.registerLayout({key="RF2", widgets={
             {x=8, y=95, w=256, h=100},
