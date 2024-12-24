@@ -21,7 +21,7 @@ local function init()
     end
 
     -- If screen size matches X18 Series Radio
-    if string.match(radio, "^X18") then
+    if string.match(radio, "^X18[^R]") then
         -- Main Front Page Layout
         system.registerLayout({key="RF2", widgets={
             {x=4, y=62, w=155, h=67},
@@ -37,7 +37,7 @@ local function init()
 
     -- Alternate X20 Layout
     -- If screen size matches X20 Series Radio
-    if string.match(radio, "^X20") then
+    if string.match(radio, "^X20") or string.match(radio, "^X18R[S]?") then
         -- Main Front Page Layout
         system.registerLayout({key="RF3", widgets={
             {x=8, y=95, w=256, h=100},
