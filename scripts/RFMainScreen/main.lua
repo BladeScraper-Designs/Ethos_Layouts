@@ -17,11 +17,11 @@ local function init()
             {x=536, y=95, w=256, h=154},
             {x=536, y=257, w=256, h=154},
         }})
-        print("Layout registered for X20 Series Radio")
+        print("Layout registered for X20/X18R Series Radio")
     end
 
     -- If screen size matches X18 Series Radio
-    if string.match(radio, "^X18[^R]") then
+    if string.match(radio, "^X18[^R]") or string.match(radio, "TWXLITE") then
         -- Main Front Page Layout
         system.registerLayout({key="RF2", widgets={
             {x=4, y=62, w=155, h=67},
@@ -32,7 +32,7 @@ local function init()
             {x=322, y=62, w=155, h=105},
             {x=322, y=171, w=155, h=100},
         }})
-        print("Layout registered for X18 Series Radio")
+        print("Layout registered for X18/TW XLite Series Radio")
     end
 
     -- Alternate X20 Layout
@@ -49,7 +49,7 @@ local function init()
             {x=536, y=257, w=256, h=154},
             {x=172, y=311, w=91, h=100},
         }})
-        print("Layout registered for X20 Series Radio")
+        print("Layout registered for X20/X18R Series Radio")
     end
 end
 
